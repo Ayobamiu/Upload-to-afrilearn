@@ -71,5 +71,9 @@
       "src/routes/index.js",
       "src/test/*"
     ]
+  },
+  "engines": {
+    "node": "15.0.1"
   }
+
 }
