@@ -9,7 +9,7 @@ import v1Router from "./routes";
 config();
 
 const app = express();
-const port = process.env.PORT || 5050;
+const port = process.env.PORT;
 global.logger = logger;
 app.use(cors());
 app.use(morgan("combined", { stream: logger.stream }));
